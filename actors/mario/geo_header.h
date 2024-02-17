@@ -1,0 +1,11 @@
+extern const GeoLayout mario_geo[];
+extern Lights1 mario_f3dlite_material_004_lights;
+extern Lights1 mario_f3dlite_material_lights;
+extern u8 mario__0_i8[];
+extern Vtx mario_000_displaylist_mesh_layer_1_vtx_0[53];
+extern Gfx mario_000_displaylist_mesh_layer_1_tri_0[];
+extern Vtx mario_000_displaylist_mesh_layer_1_vtx_1[90];
+extern Gfx mario_000_displaylist_mesh_layer_1_tri_1[];
+extern Gfx mat_mario_f3dlite_material_004[];
+extern Gfx mat_mario_f3dlite_material[];
+extern Gfx mario_000_displaylist_mesh_layer_1[];

@@ -15,10 +15,4 @@ function override_char()
     gNetworkPlayers[0].overrideModelIndex = 0
 end
 
-function before_set_mario_action(m, act)
-    if act == ACT_PUNCHING or act == ACT_MOVE_PUNCHING or act == ACT_JUMP_KICK or act == ACT_DIVE then
-        return 1
-    end
-end
 hook_event(HOOK_UPDATE, override_char)
-hook_event(HOOK_BEFORE_SET_MARIO_ACTION, before_set_mario_action)
